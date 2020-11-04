@@ -50,8 +50,7 @@ public class PricingEngine {
 				numberVehicles();
 				break;
 			case 2: 
-				vehicleType = "Mini Bus";
-				
+				vehicleType = "Mini Bus";	
 				pricingMap.put("Daily", 925.00);
 				pricingMap.put("Hourly", 360.00);
 				pricingMap.put("Distance", 3.25);
@@ -60,7 +59,6 @@ public class PricingEngine {
 				break;
 			case 3: 
 				vehicleType = "Sprinter";
-				
 				pricingMap.put("Daily", 850.00);
 				pricingMap.put("Hourly", 320.00);
 				pricingMap.put("Distance", 3.00);
@@ -69,7 +67,6 @@ public class PricingEngine {
 				break;
 			case 4: 
 				vehicleType = "Party Bus";
-				
 				pricingMap.put("Daily", 775.00);
 				pricingMap.put("Hourly", 280.00);
 				pricingMap.put("Distance", 2.75);
@@ -78,7 +75,6 @@ public class PricingEngine {
 				break;
 			case 5: 
 				vehicleType = "Sedan";
-				
 				pricingMap.put("Daily", 700.00);
 				pricingMap.put("Hourly", 240.00);
 				pricingMap.put("Distance", 2.50);
@@ -87,7 +83,6 @@ public class PricingEngine {
 				break;
 			case 6: 
 				vehicleType = "SUV";
-				
 				pricingMap.put("Daily", 625.00);
 				pricingMap.put("Hourly", 200.00);
 				pricingMap.put("Distance", 2.25);
@@ -96,7 +91,6 @@ public class PricingEngine {
 				break;
 			case 7:
 				vehicleType = "Limousine";
-				
 				pricingMap.put("Daily", 550.00);
 				pricingMap.put("Hourly", 160.00);
 				pricingMap.put("Distance", 2.00);
